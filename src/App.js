@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <HashRouter>
           <Route exact path='/' component={Gallery}/>
-          <Route exact path='/details' component={Infor}/>
+          <Route exact path='/:details' component={Infor}/>
       </HashRouter>
     </div>
   );
