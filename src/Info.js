@@ -1,8 +1,8 @@
 import React from 'react';
-
+import Details from './Details';
 function Info() {
     return (
-    <div>Hello, this will be the details page for each Movie & TV show :)</div>
+    <div>{Details()}</div>
     );
 }
 
