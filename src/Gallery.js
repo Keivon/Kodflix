@@ -1,6 +1,6 @@
 import './Gallery.css';
 import React from 'react';
-import GetGallery from './gallery-get';
+import getGallery from './gallery-get';
 import Tvcover from './Tvcover';
 
 export default function Gallery(props) {
@@ -9,7 +9,7 @@ export default function Gallery(props) {
      <div>
         <div className="flex-container">
         {
-            GetGallery().map(tvShow => (
+            getGallery().map(tvShow => (
                     <Tvcover key={tvShow.id}
                         id={tvShow.id}
                         title={tvShow.title}

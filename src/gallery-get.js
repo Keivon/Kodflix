@@ -7,7 +7,7 @@ import stranger_things from '../src/images/stranger things.jpg';
 import Luke_Cage from '../src/images/Luke Cage.jpg';
 
 
-export default function GetGallery() {
+export default function getGallery() {
 
     return[
             { title: "Friends from College", img: friends, id: "Friends_from_College"},
