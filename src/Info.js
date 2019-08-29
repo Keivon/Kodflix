@@ -1,5 +1,6 @@
 import React from 'react';
-import Details from './Details';
+import Details from './Details.js'
+
 function Info() {
     return (
     <div>{Details()}</div>
