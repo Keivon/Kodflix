@@ -9,13 +9,13 @@ import Luke_Cage from '../src/images/Luke Cage.jpg';
 
 export default function GetGallery() {
 
-    return[
-            { title: "Friends from College", img: friends, id: "Friends_from_College"},
-            { title: "Smallville", img: smallville, id: "Smallville"},
-            { title: "Sherlock", img: sherlock, id: "Sherlock"},
-            { title: "South Part", img: southPart, id: "South_Part"},
-            { title: "Stranger Things", img: stranger_things, id: "Stranger_Things"},
-            { title: "Luke Cage", img: Luke_Cage, id: "Luke_Cage" }
+    return [
+        { title: "Friends from College", img: friends, id: "Friends_from_College" },
+        { title: "Smallville", img: smallville, id: "Smallville" },
+        { title: "Sherlock", img: sherlock, id: "Sherlock" },
+        { title: "South Part", img: southPart, id: "South_Part" },
+        { title: "Stranger Things", img: stranger_things, id: "Stranger_Things" },
+        { title: "Luke Cage", img: Luke_Cage, id: "Luke_Cage" }
     ];
 
 }

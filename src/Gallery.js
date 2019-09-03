@@ -6,7 +6,7 @@ import Tvcover from './Tvcover';
 export default function Gallery(props) {
 
  return (
-     <div>
+     
         <div className="flex-container">
         {
             GetGallery().map(tvShow => (
@@ -17,8 +17,6 @@ export default function Gallery(props) {
             ))
         }
         </div>
-        
-    </div>
  ); 
 }
 
