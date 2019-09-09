@@ -1,0 +1,50 @@
+*{
+    background-color: rgb(38, 38, 39);
+    color: rgb(177, 177, 194);
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    padding: 0 30px;
+}
+
+
+
+.item {
+    flex: 1;
+    position: right;
+    
+}
+
+.item-text {
+    flex:1;
+    position: left;
+    font-size: 35px;
+}
+
+.item img {
+    height: 100%;
+    width: 100%;
+  } 
+
+  @media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 0 8px;
+    }
+
+    .item {
+        flex: 1;
+        order: 1;
+    }
+    
+    .item-text {
+        flex: 1;
+        order: 0;
+        font-size: 20px;
+  }
+
+}
