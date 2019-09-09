@@ -1,7 +1,7 @@
 import './Gallery.css';
 import React from 'react';
-import GetGallery from './gallery-get';
-import Tvcover from './Tvcover';
+import GetGallery from './gallery-get.js';
+import Tvcover from './Tvcover.js';
 
 export default function Gallery(props) {
 

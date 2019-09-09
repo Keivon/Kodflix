@@ -1,10 +1,10 @@
 
-import friends from '../src/images/Friends from College.jpg';
-import smallville from '../src/images/Smallville.jpg';
-import sherlock from '../src/images/sherlock.jpg';
-import southPart from '../src/images/South Park.jpg';
-import stranger_things from '../src/images/stranger things.jpg';
-import Luke_Cage from '../src/images/Luke Cage.jpg';
+import friends from './images/Friends from College.jpg';
+import smallville from './images/Smallville.jpg';
+import sherlock from './images/sherlock.jpg';
+import southPart from './images/South Park.jpg';
+import stranger_things from './images/stranger things.jpg';
+import Luke_Cage from './images/Luke Cage.jpg';
 
 
 export default function GetGallery() {
