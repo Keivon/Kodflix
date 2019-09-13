@@ -12,6 +12,15 @@ export default function Details(props) {
     useEffect(() => {
         let tvShow = GetGallery().find(show => show.id === tvShowId);
         setCover(tvShow);
+
+        fetch('/rest/shows')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (myJson) {
+                console.log(JSON.stringify(myJson));
+            });
+            
     }, [tvShowId]);
 
 
