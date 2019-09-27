@@ -8,7 +8,7 @@ export default function Tvcover(props) {
         <Link to ={`/${props.id}`}>
             <div className="flex-item">
                 <div className="overlay"><h1>{props.title}</h1></div>
-                <img src={props.img}  alt={props.title}/>
+                <img src={require(`./common/images/${props.id}.jpg`)}  alt={props.title}/>
             </div>
         </Link>
     );

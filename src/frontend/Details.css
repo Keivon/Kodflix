@@ -29,6 +29,11 @@
     width: 100%;
   } 
 
+  #footer {
+    position:absolute;
+    bottom:0;
+  }
+
   @media only screen and (max-width: 600px) {
     .container {
         display: flex;
@@ -45,6 +50,10 @@
         flex: 1;
         order: 0;
         font-size: 20px;
+  }
+  #footer {
+    position:absolute;
+    bottom:0;
   }
 
 }
